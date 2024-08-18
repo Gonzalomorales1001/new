@@ -1,10 +1,4 @@
-
-
 import { api, HydrateClient } from "~/trpc/server";
-import { AuthShowcase } from "./_components/auth-showcase";
-import {
-  PostCardSkeleton,
-} from "./_components/posts";
 
 export const runtime = "nodejs";
 
